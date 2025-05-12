@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 123 456 7890",
+      details: "+91 83007 02070",
       description: "Monday to Friday, 9am to 6pm IST"
     },
     {

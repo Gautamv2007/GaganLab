@@ -108,7 +108,8 @@ const socialIcons = {
         </div>
 
         {/* Directors (Top) */}
-        <div className="flex justify-center gap-8 mb-16">
+        <div className="flex flex-col md:flex-row justify-center gap-8 mb-16
+">
           {teamMembers
             .filter((member) => member.level === "top")
             .map((member, index) => (
@@ -119,8 +120,8 @@ const socialIcons = {
                     alt={member.name}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gagan-dark/90 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                    <p className="text-white text-sm">{member.description}</p>
+                  <div className="absolute inset-0 bg-gradient-to-t from-gagan-dark/90 to-transparent opacity-0 ">
+                    
                   </div>
                 </div>
                 <CardContent className="p-6 text-center">
@@ -157,8 +158,8 @@ const socialIcons = {
                     alt={member.name}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gagan-dark/90 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                    <p className="text-white text-sm">{member.description}</p>
+                  <div className="absolute inset-0 bg-gradient-to-t from-gagan-dark/90 to-transparent opacity-0 ">
+                    
                   </div>
                 </div>
                 <CardContent className="p-6 text-center">
