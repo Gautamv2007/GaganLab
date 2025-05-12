@@ -74,7 +74,7 @@ const teamMembers = [
   },
   
   {
-    name: "Yukesh ",
+    name: "Yukesh Naren",
     role: "Lead Developer",
     level: "bottom",
     image: "/images/yukki.jpg",
