@@ -8,22 +8,22 @@ const Career = () => {
 
   const careers = [
     {
-      title: "Full Stack Developer- intern",
-      department: "Product Development",
-      location: "Bangalore, India",
-      type: "Full-time"
-    },
-    {
-      title: "Full Stack Developer- full time",
-      department: "Engineering",
+      title: "Full Stack Developer- Intern",
+      department: "Product Development & Testing",
       location: "Remote, India",
+      type: "intern"
+    },
+    {
+      title: "Full Stack Developer- Full Time",
+      department: "Product Development",
+      location: "Kurnool, India",
       type: "Full-time"
     },
     {
-      title: "UI/UX Designer- intern",
-      department: "Acceleration Program",
-      location: "Delhi, India",
-      type: "Part-time"
+      title: "UI/UX Designer- Intern",
+      department: "Product Design",
+      location: "Remote, India",
+      type: "full-time"
     }
   ];
 

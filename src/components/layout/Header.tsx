@@ -49,7 +49,7 @@ const Header = () => {
               className="text-white font-bold text-2xl"
             >
               <motion.img 
-                src="/logo.svg" 
+                src="/logonew.png" 
                 alt="Gagan Labs Logo" 
                 className="h-8 mr-2 inline-block"
                 style={{ opacity: isScrolled ? 1 : 0, transition: 'opacity 0.5s ease-out' }}
